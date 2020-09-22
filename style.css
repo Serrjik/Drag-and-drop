@@ -1,0 +1,35 @@
+.dropZone {
+	border: 5px dashed #b1b1ff;
+	border-radius: 20px;
+	width: 270px;
+	min-height: 270px;
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+.dragItem {
+	background: red;
+	border: 5px dashed #ffa7a7;
+	width: 60px;
+	height: 60px;
+	border-radius: 20px;
+	margin: 10px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.dragItem--active {
+	opacity: 0.5;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.dropZone--active {
+	border: 5px dashed blue;
+}
